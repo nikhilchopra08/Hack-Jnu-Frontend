@@ -81,6 +81,7 @@ const Booking = () => {
   
       // Booking successful
       console.log('Booking successful');
+      alert("Your enquiry has been submitted, we will call you soon on registered number!!!!")
     } catch (error) {
       // Log any errors
       console.error('Error booking service:', error.message);
@@ -94,7 +95,8 @@ const Booking = () => {
         <div className="container-fluid px-5 mt-5">
           <h2 className="mb-4">Services Offered</h2>
 
-          <div className="row">
+          <hr className="my-2 mx-auto w-full border-t-2 border-black divider" />
+          <div className="row row-1">
             {services.map((service) => (
               <div key={service._id} className="col-md-3 mb-4">
                 <div className="card">
@@ -110,7 +112,7 @@ const Booking = () => {
                   <div className="opaque">
                     <p>Description : {service.desc}</p>
                     <p>Duration : {service.duration}</p>
-                    <div className="text-center mt-4">
+                    <div className="text-center mb-4">
                       <button
                         className="btn btn-primary"
                         onClick={() => handleBooking(service._id)}

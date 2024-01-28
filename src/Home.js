@@ -2,8 +2,6 @@ import React from 'react';
 
 function Home() {
 
-
-  
   return (
     <div className='JaggaBhenKaLodaa'>
       <div className="relative isolate px-6 pt-14 lg:px-8">

@@ -22,6 +22,8 @@ const EnquiryForm = () => {
   return (
     <div className="container mt-5">
       <h2>Enquiry Form</h2>
+
+      <hr className="my-2 mx-auto w-full border-t-2 border-black divider" />
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>
@@ -67,7 +69,8 @@ const EnquiryForm = () => {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn butt btn-success">Submit</button>
+
       </form>
     </div>
   );

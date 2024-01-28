@@ -124,7 +124,7 @@
   }
   
   .row{
-    height: 29rem;
+    height: 30rem;
   }
 
   .HEader{
@@ -193,4 +193,13 @@ bottom: 4rem;
 .register{
   position: relative;
   bottom: 2rem
+}
+
+.row-1{
+  width: 100rem;
+margin-left: 4rem;
+}
+
+.butt{
+  background-color: #86dc3D;
 }
